@@ -3,7 +3,7 @@
 $lang = array(
     'code' => 'es',
     'meta_title' => 'Francisco Tomás Carribero - Freelance Web Developer',
-    'meta_keywords' => 'Francisco Carribero,Web design,Web systems,Web apps,HTML,CSS,JavaScript,Jquery,Wordpress,App design,Freelance,Web Freelancer,SEO,Intranets, Extranets',
+    'meta_keywords' => 'Francisco Carribero,Diseño web,sistemas Web,aplicaciones web,HTML,CSS,JavaScript,Jquery,Diseño de aplicaciones,Freelance,Web Freelancer,SEO,Intranets, Extranets',
     'home_title' => 'Programador Web Freelance',
     'home_subtitle' => 'Desarrollo a medida de',
     'home_legend' => 'Sin intermediarios, en contacto directo e inmediato. La mejor forma de llevar adelante sus proyectos.',
