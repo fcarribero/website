@@ -2,26 +2,26 @@
     <div class="row">
         <div class="col-md-8">
             <div class="alert alert-success" style="display:none;" id="result-success">
-                <i class="fa fa-check"></i> Mensaje enviado
+                <i class="fa fa-check"></i> <?= lang('msg_message_sent') ?>
             </div>
             <div class="alert alert-danger" style="display:none;" id="result-error">
                 <i class="fa fa-exclamation-circle"></i> <span class="content"></span>
             </div>
             <form action="" class="form">
                 <div class="form-group">
-                    <label class="control-label">Nombre</label>
+                    <label class="control-label"><?= lang('label_name') ?></label>
                     <input type="text" class="form-control" name="nombre" required="required" autofocus="autofocus" />
                 </div>
                 <div class="form-group">
-                    <label class="control-label">E-mail</label>
+                    <label class="control-label"><?= lang('label_email') ?></label>
                     <input type="email" class="form-control" name="email" required="required" />
                 </div>
                 <div class="form-group">
-                    <label class="control-label">Mensaje</label>
+                    <label class="control-label"><?= lang('label_message') ?></label>
                     <textarea class="form-control" name="mensaje" required="required" style="resize:vertical;height:200px;"></textarea>
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-primary">Enviar</button><span id="mail-result"></span>
+                    <button class="btn btn-primary"><?= lang('label_send') ?></button><span id="mail-result"></span>
                 </div>
             </form>
         </div>
@@ -52,12 +52,12 @@
                     $('.contact .form').hide();
                     $('#result-success').fadeIn();
                 } else {
-                    $('#result-error').fadeIn().find('.content').text('No se pudo enviar el mensaje. Intente nuevamente mas tarde');
+                    $('#result-error').fadeIn().find('.content').text('<?= lang('msg_message_fail') ?>');
                 }
             },
             error: function(data) {
                 $('.contact .form button').removeAttr('disabled').find('.fa').remove();
-                $('#result-error').fadeIn().find('.content').text('Ocurrió un error inesperado al enviar el mensaje. Intente nuevamente mas tarde o envie un correo a francisco.carribero@webneex.com');
+                $('#result-error').fadeIn().find('.content').text('<?= lang('msg_fatal_error') ?>');
             }
         });
 

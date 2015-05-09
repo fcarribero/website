@@ -1,0 +1,11 @@
+Options FollowSymLinks
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+     
+    RewriteRule ^(en.*)$ index.php?/$1 [L]
+    RewriteRule ^(es.*)$ index.php?/$1 [L]
+</IfModule> 
+ 
+<IfModule !mod_rewrite.c>
+    ErrorDocument 404 /index.php
+</IfModule>

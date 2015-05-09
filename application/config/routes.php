@@ -54,4 +54,4 @@ $route['404_override'] = '';
 $route['translate_uri_dashes'] = FALSE;
 
 
-$route['quien-soy'] = 'QuienSoy/index';
+$route['(en|es)/quien-soy'] = '$1/QuienSoy/index';

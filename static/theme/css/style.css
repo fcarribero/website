@@ -8,6 +8,9 @@ body::after {background: url("../img/top_line.jpg") no-repeat scroll 0 0 #ecec56
 .site-header-menu a{font-size:1.5em;text-decoration:none;padding:5px 20px;color:inherit;border-bottom:5px solid #FFF;margin-bottom:-5px;}
 .site-header-menu a:hover, .site-header-menu a.selected{color:#000;border-bottom:5px solid #000;}
 .site-body{background-image:url('../img/texture.jpg');}
+.site-languages{text-align:right;}
+.site-languages > a{color:#DDF;}
+.site-languages > a > img{margin-right:3px;}
 
 .profile{padding-bottom:50px;}
 .profile > .row{padding-bottom:20px;margin:20px;}
@@ -30,7 +33,7 @@ body::after {background: url("../img/top_line.jpg") no-repeat scroll 0 0 #ecec56
 .home-title{font-size:2em;text-align: right;margin-top:50px;}
 .home-subtitle{font-size:4em;text-align: right;}
 .home-resume{font-size:1.7em;text-align: right;}
-.home-dd{color:#31b0d5;cursor:pointer;display:inline-block;width:327px;text-align:left;}
+.home-dd{color:#31b0d5;cursor:pointer;display:inline-block;width:350px;text-align:left;}
 .home-dd-popup{position:absolute;background:rgba(255,255,255,0.6);box-shadow: 0px 0px 50px #FFF;}
 .home-dd-popup-item{font-size:4em;cursor:pointer;}
 .home-dd-carrusel{background:#FFF;margin:10px 0px 10px 0px;display:none;height:656px;}
