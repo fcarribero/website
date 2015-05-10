@@ -1,16 +1,16 @@
 <div class="container-fluid profile">
-    <div class="row">
+    <article class="row">
         <div class="col-md-12 profile-title"><?= lang('title_who_am_i') ?></div>
-        <div class="col-md-3 profile-photo">
+        <figure class="col-md-3 profile-photo">
             <img src="<?= base_url('static/theme/img/profile_photo.jpg') ?>" />
-        </div>
+        </figure>
         <div class="col-md-9">
-            <div class="profile-name">Francisco Carribero<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-                <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/francisco-carribero/2a/a26/560" data-format="click" data-related="false"></script></div>
-            <div class="profile-job"><?= lang('cv_title') ?></div>
+            <h1 class="profile-name">Francisco Carribero<script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
+                <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/francisco-carribero/2a/a26/560" data-format="click" data-related="false"></script></h1>
+            <h2 class="profile-job"><?= lang('cv_title') ?></h2>
             <div class="profile-extract"><?= lang('cv_extract') ?></div>
         </div>
-    </div>
+    </article>
     <div class="row">
         <div class="col-md-12 profile-title"><?= lang('title_what_i_do') ?></div>
         <div class="col-md-10 col-md-push-2"><?= lang('cv_what_i_do_extract') ?></div>
@@ -28,7 +28,7 @@
     <div class="row">
         <div class="col-md-12 profile-title"><?= lang('title_featured_projects') ?></div>
         <?php foreach (lang('cv_featured_projects') as $project): ?>
-            <div class="row profile-portfolio">
+            <section class="row profile-portfolio">
                 <div class="col-md-10">
                     <div class="profile-portfolio-title"><?= $project['title'] ?></div>
                     <div class="profile-portfolio-description"><?= $project['content'] ?></div>
@@ -38,7 +38,7 @@
                         <img src="<?= base_url('static/theme/img/' . $project['image']) ?>" style="max-height:200px;" class="maximize" />
                     </div>
                 <?php endif; ?>
-            </div>
+            </section>
         <?php endforeach; ?>
         <div class="row"><?= lang('cv_footer') ?></div>
     </div>

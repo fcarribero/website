@@ -22,7 +22,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="row site-header">
+            <header class="row site-header">
                 <div class="col-md-12 site-languages">
                     <?php if (lang('code') == 'es'): ?><a href="<?= site_url('en/' . implode('/', array_slice($this->uri->segments, 1))); ?>"><img src="<?= base_url('static/theme/img/flags/en.png') ?>" /> English</a><?php endif; ?>
                     <?php if (lang('code') == 'en'): ?><a href="<?= site_url('es/' . implode('/', array_slice($this->uri->segments, 1))); ?>"><img src="<?= base_url('static/theme/img/flags/es.png') ?>" /> Español</a><?php endif; ?>
@@ -30,7 +30,7 @@
                 <div class="col-md-4 site-header-logo">
                     <a href="<?= site_url() ?>">{$FCarribero->GetDev()}</a>
                 </div>
-                <div class="col-md-8 site-header-menu">
+                <nav class="col-md-8 site-header-menu">
                     <a href="<?= site_url(lang('code')) ?>"<?= $menu == 'home' ? ' class="selected"' : '' ?>><?= lang('title_home') ?></a>
                     <span>/</span>
                     <a href="<?= site_url(lang('code') . '/quien-soy') ?>"<?= $menu == 'quien-soy' ? ' class="selected"' : '' ?>><?= lang('title_who_am_i') ?></a>
@@ -38,12 +38,12 @@
                     <a href="<?= site_url(lang('code') . '/servicios') ?>"<?= $menu == 'servicios' ? ' class="selected"' : '' ?>><?= lang('title_services') ?></a>
                     <span>/</span>
                     <a href="<?= site_url(lang('code') . '/contactame') ?>"<?= $menu == 'contactame' ? ' class="selected"' : '' ?>><?= lang('title_contact') ?></a>
-                </div>
+                </nav>
                 <div class="clearfix"></div>
-            </div>
-            <div class="row site-body">
+            </header>
+            <main class="row site-body">
                 <?php $this->load->view($content); ?>
-            </div>
+            </main>
         </div>
         <?php $this->load->view('analytics_view'); ?>
     </body>
