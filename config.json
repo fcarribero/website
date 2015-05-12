@@ -1,0 +1,8 @@
+{
+    "mail": {
+        "smtp_host": "mail.webneex.com",
+        "smtp_port": "25",
+        "smtp_user": "francisco.carribero@webneex.com",
+        "smtp_pass": "Mar3ng0$"
+    }
+}
