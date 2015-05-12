@@ -13,7 +13,7 @@
         <meta name="Description" content="<?= lang('home_legend') ?>" />
         <meta name="Keywords" content="<?= lang('meta_keywords') ?>" />
         <meta name="Author" content="Francisco Tomás Carribero" />
-        <meta property="og:title" content="Welcome to Cooshtee - the digital home of Cheltenham-based freelance web designer Chris Howard."/>
+        <meta property="og:title" content="<?= lang('meta_title') ?>"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="http://www.webneex.com/<?= lang('lang_code') ?>"/>
         <meta property="og:image" content="http://www.webneex.com/static/theme/img/mini_banner.jpg"/>
