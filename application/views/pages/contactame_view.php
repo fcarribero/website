@@ -41,7 +41,7 @@
         $('.contact .form button').attr('disabled', 'disabled').append($('<i class="fa fa-spinner fa-spin" style="margin-left:10px;"></i>'));
         $('#result-error').hide();
         $.ajax({
-            url: '<?= site_url('contactame/enviar') ?>',
+            url: '<?= site_url(lang('code') . '/contactame/enviar') ?>',
             type: 'post',
             dataType: 'JSON',
             data: $(this).serialize(),
