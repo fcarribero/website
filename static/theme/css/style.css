@@ -2,15 +2,15 @@ body{background-image:url('../img/body_texture.jpg');font-family: "Lato";}
 body::before {background: none repeat scroll 0 0 #000;content: " ";height: 20px;margin-right: 406px;position: absolute;right: 50%;top: 0;transform: skewX(-22deg);width: 50%;}
 body::after {background: url("../img/top_line.jpg") no-repeat scroll 0 0 #ecec56;content: " ";height: 5px;left: 50%;margin-left: 305px;position: absolute;top: 0;width: 50%;}
 
-.site-header{margin-top:30px;border-bottom:5px solid #FFF;}
-.site-header-logo a{font-family: "Source Code Pro";font-size:1.5em;padding:10px 5px;display:inline-block;cursor:pointer;text-decoration: none;color:#FFF;font-weight:bold;text-shadow:0px 2px 0px #000;}
-.site-header-menu{text-align:right;padding-top:18px;font-weight:bold;color:#FFF;}
-.site-header-menu a{font-size:1.5em;text-decoration:none;padding:5px 20px;color:inherit;border-bottom:5px solid #FFF;margin-bottom:-5px;}
-.site-header-menu a:hover, .site-header-menu a.selected{color:#000;border-bottom:5px solid #000;}
-.site-body{background-image:url('../img/texture.jpg');}
-.site-languages{text-align:right;}
-.site-languages > a{color:#DDF;}
-.site-languages > a > img{margin-right:3px;}
+header{margin-top:30px;border-bottom:5px solid #FFF;}
+header nav{text-align:right;padding-top:18px;font-weight:bold;color:#FFF;}
+header nav a{font-size:1.5em;text-decoration:none;padding:5px 20px;color:inherit;border-bottom:5px solid #FFF;margin-bottom:-5px;}
+header nav a:hover, header nav a.selected{color:#000;border-bottom:5px solid #000;text-decoration:none;}
+header .logo a{font-family: "Source Code Pro";font-size:1.5em;padding:10px 5px;display:inline-block;cursor:pointer;text-decoration: none;color:#FFF;font-weight:bold;text-shadow:0px 2px 0px #000;}
+header .languages{text-align:right;}
+header .languages > a{color:#DDF;}
+header .languages > a > img{margin-right:3px;}
+main{background-image:url('../img/texture.jpg');}
 
 .profile{padding-bottom:50px;}
 .profile > .row{padding-bottom:20px;margin:20px;}

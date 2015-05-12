@@ -22,15 +22,15 @@
     </head>
     <body>
         <div class="container">
-            <header class="row site-header">
-                <div class="col-md-12 site-languages">
+            <header class="row">
+                <div class="col-md-12 languages">
                     <?php if (lang('code') == 'es'): ?><a href="<?= site_url('en/' . implode('/', array_slice($this->uri->segments, 1))); ?>"><img src="<?= base_url('static/theme/img/flags/en.png') ?>" /> English</a><?php endif; ?>
                     <?php if (lang('code') == 'en'): ?><a href="<?= site_url('es/' . implode('/', array_slice($this->uri->segments, 1))); ?>"><img src="<?= base_url('static/theme/img/flags/es.png') ?>" /> Español</a><?php endif; ?>
                 </div>
-                <div class="col-md-4 site-header-logo">
+                <div class="col-md-4 logo">
                     <a href="<?= site_url() ?>">{$FCarribero->GetDev()}</a>
                 </div>
-                <nav class="col-md-8 site-header-menu">
+                <nav class="col-md-8">
                     <a href="<?= site_url(lang('code')) ?>"<?= $menu == 'home' ? ' class="selected"' : '' ?>><?= lang('title_home') ?></a>
                     <span>/</span>
                     <a href="<?= site_url(lang('code') . '/quien-soy') ?>"<?= $menu == 'quien-soy' ? ' class="selected"' : '' ?>><?= lang('title_who_am_i') ?></a>
@@ -41,7 +41,7 @@
                 </nav>
                 <div class="clearfix"></div>
             </header>
-            <main class="row site-body">
+            <main class="row">
                 <?php $this->load->view($content); ?>
             </main>
         </div>
