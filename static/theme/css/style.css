@@ -11,6 +11,8 @@ header .languages{text-align:right;}
 header .languages > a{color:#DDF;}
 header .languages > a > img{margin-right:3px;}
 main{background-image:url('../img/texture.jpg');}
+footer{padding:5px;text-align:right;}
+footer a{color:inherit;}
 
 .profile{padding-bottom:50px;}
 .profile > .row{padding-bottom:20px;margin:20px;}

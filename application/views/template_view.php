@@ -44,6 +44,9 @@
             <main class="row">
                 <?php $this->load->view($content); ?>
             </main>
+            <footer class="row">
+                Powered by <a href="http://www.codeigniter.com/" target="_blank">CodeIgniter</a> - <a href="https://github.com/fcarribero/website" target="_blank">Github.com</a>
+            </footer>
         </div>
         <?php $this->load->view('analytics_view'); ?>
     </body>
