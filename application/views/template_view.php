@@ -16,7 +16,7 @@
         <meta property="og:title" content="<?= lang('meta_title') ?>"/>
         <meta property="og:type" content="website"/>
         <meta property="og:url" content="http://www.webneex.com/<?= lang('lang_code') ?>"/>
-        <meta property="og:image" content="http://www.webneex.com/static/theme/img/mini_banner.jpg"/>
+        <meta property="og:image" content="<?= base_url('static/theme/img/mini_banner.jpg') ?>"/>
         <meta property="og:site_name" content="<?= lang('meta_title') ?>"/>
         <meta property="og:description" content="<?= lang('home_legend') ?>"/>
     </head>
