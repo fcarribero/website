@@ -52,12 +52,12 @@
                     $('.contact .form').hide();
                     $('#result-success').fadeIn();
                 } else {
-                    $('#result-error').fadeIn().find('.content').text('<?= lang('msg_message_fail') ?>');
+                    $('#result-error').fadeIn().find('.content').text("<?= lang('msg_message_fail') ?>");
                 }
             },
             error: function(data) {
                 $('.contact .form button').removeAttr('disabled').find('.fa').remove();
-                $('#result-error').fadeIn().find('.content').text('<?= lang('msg_fatal_error') ?>');
+                $('#result-error').fadeIn().find('.content').text("<?= lang('msg_fatal_error') ?>");
             }
         });
 
