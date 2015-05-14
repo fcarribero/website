@@ -27,13 +27,13 @@ function ddInit() {
     $('.home-dd').click(function() {
         clearTimeout(homedd_to);
         $('.home-dd-popup').remove();
-        var offset = $('.home-dd').attr('data').split(',').indexOf($('.home-dd').text()) * 80;
+        var offset = $('.home-dd').attr('data').split(',').indexOf($('.home-dd').text()) * $('.home-dd-popup-item').height();
         var popup = $('<div />', {class: 'home-dd-popup'}).css({left: $('.home-dd').position().left, top: $('.home-dd').position().top - offset});
         var items = $('.home-dd').attr('data').split(',');
         for (var i in items) {
             var item = $('<div />', {class: 'home-dd-popup-item'}).text(items[i]);
             item.click(function() {
-                var offset = $('.home-dd').attr('data').split(',').indexOf($(this).text()) * 80;
+                var offset = $('.home-dd').attr('data').split(',').indexOf($(this).text()) * $('.home-dd-popup-item').height();
                 $('.home-dd-popup').animate({top: $('.home-dd').position().top - offset}, (function(text) {
                     return function() {
                         $('.home-dd-popup').fadeOut('fast', (function(text) {
