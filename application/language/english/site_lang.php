@@ -4,7 +4,6 @@ $lang = array(
     'code' => 'en',
     'meta_title' => 'Francisco Tomás Carribero - Freelance Web Developer',
     'meta_keywords' => 'Francisco Carribero,Web design,Web systems,Web apps,HTML,CSS,JavaScript,Jquery,App design,Freelance,Web Freelancer,SEO,Intranets, Extranets',
-    'home_title' => 'Freelance Web Developer',
     'home_subtitle' => 'Custom development of',
     'home_legend' => 'No intermediaries, direct and immediate contact. The best way to carry out your projects.',
     'msg_web_systems' => 'Web Systems',
@@ -21,7 +20,7 @@ $lang = array(
     'title_contact' => 'Contact',
     'title_what_i_do' => 'What I do?',
     'title_skills' => 'Skills',
-    'title_featured_projects' => 'Featured Projects',
+    'title_featured_projects' => 'Some of my works',
     'label_name' => 'Name',
     'label_email' => 'E-mail',
     'label_message' => 'Message',
@@ -32,10 +31,10 @@ $lang = array(
     'cv_skills' => array(
         'Development of LAMP systems with <b>PHP</b>, <b>MySQL/PostgreSQL/MongoDB</b>',
         '<b>Node.js</b>',
-        'Front-end development with <b>jQuery</b>, <b>Bootstrap</b>, <b>CSS</b>, <b>XHTML - HTML 4.X - HTML 5</b>',
+        'Front-end development with <b>Javascript/jQuery</b>, <b>Bootstrap</b>, <b>CSS</b>, <b>HTML 5</b>',
         'Web Services and APIs with <b>SOAP</b>, <b>XML-RPC</b>, <b>JSON-RPC</b>',
         'Analysis and optimization of processes and algoritms',
-        'Design and optimization of UI',
+        'UI/UX Design',
         'SEO'
     ),
     'cv_featured_projects' => array(

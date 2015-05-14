@@ -4,7 +4,6 @@ $lang = array(
     'code' => 'es',
     'meta_title' => 'Francisco Tomás Carribero - Freelance Web Developer',
     'meta_keywords' => 'Francisco Carribero,Diseño web,sistemas Web,aplicaciones web,HTML,CSS,JavaScript,Jquery,Diseño de aplicaciones,Freelance,Web Freelancer,SEO,Intranets, Extranets',
-    'home_title' => 'Programador Web Freelance',
     'home_subtitle' => 'Desarrollo a medida de',
     'home_legend' => 'Sin intermediarios, en contacto directo e inmediato. La mejor forma de llevar adelante sus proyectos.',
     'msg_web_systems' => 'Sistemas Web',
@@ -21,7 +20,7 @@ $lang = array(
     'title_contact' => 'Contáctame',
     'title_what_i_do' => '¿Qué hago?',
     'title_skills' => 'Aptitudes',
-    'title_featured_projects' => 'Proyectos destacados',
+    'title_featured_projects' => 'Algunos trabajos',
     'label_name' => 'Nombre',
     'label_email' => 'E-mail',
     'label_message' => 'Mensaje',
@@ -32,10 +31,10 @@ $lang = array(
     'cv_skills' => array(
         'Desarrollo e implementación de sistemas LAMP con <b>PHP</b>, <b>MySQL/PostgreSQL/MongoDB</b>',
         '<b>Node.js</b>',
-        'Front-end con <b>jQuery</b>, <b>Bootstrap</b>, <b>CSS</b>, <b>XHTML - HTML 4.X - HTML 5</b>',
+        'Front-end con <b>Javascript/jQuery</b>, <b>Bootstrap</b>, <b>CSS</b>, <b>HTML 5</b>',
         'Implementación de servicios web y APIs <b>SOAP</b>, <b>XML-RPC</b>, <b>JSON-RPC</b>',
         'Análisis y optimización de procesos',
-        'Diseño y optimización de interfaces gráficas para entornos web',
+        'Diseño de UI/UX',
         'Optimización de sitios web para buscadores'
     ),
     'cv_featured_projects' => array(

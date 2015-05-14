@@ -1,4 +1,4 @@
-<div class="container-fluid contact">
+<div class="contact">
     <div class="row">
         <div class="col-md-8">
             <div class="alert alert-success" style="display:none;" id="result-success">
@@ -29,10 +29,6 @@
             </form>
         </div>
         <div class="col-md-4">
-            <div class="contact-linkedin-widget">
-                <script src="//platform.linkedin.com/in.js" type="text/javascript"></script>
-                <script type="IN/MemberProfile" data-id="https://www.linkedin.com/pub/francisco-carribero/2a/a26/560" data-format="inline" data-related="false"></script>
-            </div>
             <div class="contact-location"><i class="fa fa-map-marker"></i> Capital Federal, Buenos Aires, Argentina</div>
             <div class="contact-phone"><i class="fa fa-phone"></i> <a href="callto:+5491164871203">+54 9 11 6487-1203</a></div>
             <div class="contact-mail"><i class="fa fa-envelope"></i> <a href="mailto:francisco.carribero@webneex.com">francisco.carribero@webneex.com</a></div>

@@ -24,7 +24,7 @@ function ddSelectNext() {
     }, 5000);
 }
 function ddInit() {
-    $('.home-dd').click(function() {
+    $('.home-dd:visible').click(function() {
         clearTimeout(homedd_to);
         $('.home-dd-popup').remove();
         var offset = $('.home-dd').attr('data').split(',').indexOf($('.home-dd').text()) * $('.home-dd-popup-item').height();
