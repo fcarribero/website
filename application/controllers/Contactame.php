@@ -25,6 +25,12 @@ class Contactame extends CI_Controller {
             show_404();
         }
 
+        $this->load->library('Recaptcha');
+        if (!$this->recaptcha->check()) {
+            echo json_encode(array('success' => false, 'message' => lang('captcha_failed')));
+            return;
+        }
+
         $mensaje = '';
         $mensaje .= utf8_decode($data['mensaje']);
         $mensaje .= PHP_EOL . PHP_EOL . utf8_decode($data['nombre']);

@@ -3,6 +3,7 @@
         <script src="<?= base_url('static/js/jquery-1.11.2.min.js') ?>"></script>
         <script src="<?= base_url('static/bootstrap-3.3.4-dist/js/bootstrap.min.js') ?>"></script>
         <script src="<?= base_url('static/js/main.js') ?>"></script>
+        <script src='https://www.google.com/recaptcha/api.js'></script>
 
         <link rel="stylesheet" href="<?= base_url('static/bootstrap-3.3.4-dist/css/bootstrap.min.css') ?>" />
         <link rel="stylesheet" href="<?= base_url('static/theme/css/style.css') ?>" />

@@ -21,6 +21,9 @@
                     <textarea class="form-control" name="mensaje" required="required" style="resize:vertical;height:200px;"></textarea>
                 </div>
                 <div class="form-group">
+                    <div class="g-recaptcha" data-sitekey="6Lc04QYTAAAAAD8d8PCHNnUqE51RIQtbo0k6Bt2M"></div>
+                </div>
+                <div class="form-group">
                     <button class="btn btn-primary"><?= lang('label_send') ?></button><span id="mail-result"></span>
                 </div>
             </form>
@@ -46,13 +49,16 @@
             dataType: 'JSON',
             data: $(this).serialize(),
             success: function(data) {
-                console.log(data);
                 $('.contact .form button').removeAttr('disabled').find('.fa').remove();
                 if (data.success) {
                     $('.contact .form').hide();
                     $('#result-success').fadeIn();
                 } else {
-                    $('#result-error').fadeIn().find('.content').text("<?= lang('msg_message_fail') ?>");
+                    if (data.message) {
+                        $('#result-error').fadeIn().find('.content').text(data.message);
+                    } else {
+                        $('#result-error').fadeIn().find('.content').text("<?= lang('msg_message_fail') ?>");
+                    }
                 }
             },
             error: function(data) {

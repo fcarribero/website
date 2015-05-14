@@ -82,5 +82,6 @@ $lang = array(
                 'Diseño 2D/3D'
             )
         )
-    )
+    ),
+    'captcha_failed' => 'La validación de Captcha a fallado. Por favor intente de nuevo.'
 );
