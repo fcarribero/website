@@ -56,4 +56,9 @@ footer a{color:inherit;}
     header nav a{font-size:1em;}
     header{margin-top:0px;}
     .profile-name{text-align:center;}
+    .container{padding:inherit 0px;}
+}
+
+@media (max-width: 767px){
+    .profile-social a{display:block;text-align:center;margin:20px;}
 }
