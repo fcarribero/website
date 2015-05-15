@@ -13,6 +13,11 @@
             <div class="col-md-9">
                 <h2 class="profile-name">Francisco Carribero</h2>
                 <div class="profile-extract"><?= lang('cv_extract') ?></div>
+                <div class="profile-social">
+                    <a href="https://ar.linkedin.com/pub/francisco-carribero/2a/a26/560" target="_blank"><img src="<?= base_url('static/theme/img/banner-linkedin.png') ?>"/></a>
+                    <a href="https://www.freelancer.com/u/fcarribero.html" target="_blank"><img src="<?= base_url('static/theme/img/banner-freelancer.png') ?>"/></a>
+                    <a href="https://github.com/fcarribero" target="_blank"><img src="<?= base_url('static/theme/img/banner-github.png') ?>"/></a>
+                </div>
             </div>
         </article>
         <div class="row">
