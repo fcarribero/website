@@ -61,4 +61,5 @@ footer a{color:inherit;}
 
 @media (max-width: 767px){
     .profile-social a{display:block;text-align:center;margin:20px;}
+    .profile-name{font-size:1.8em;}
 }
