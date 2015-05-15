@@ -25,6 +25,7 @@ $lang = array(
     'label_email' => 'E-mail',
     'label_message' => 'Message',
     'label_send' => 'Send',
+    'label_have_any_project' => 'Do you have a project? then contact me',
     'cv_title' => 'Freelance Web Developer',
     'cv_extract' => 'I am an experienced software developer with solid knowledge and dedication. I consider myself a perfectionist and tidy. In my professional life I seek to be as creative as possible, looking innovate and break barriers to developing high quality products.',
     'cv_what_i_do_extract' => 'I have 7 years of experience developing web systems of any size for entrepreneurs, small and large companies.',

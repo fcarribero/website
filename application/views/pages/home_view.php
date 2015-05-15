@@ -33,6 +33,9 @@
                     <?php endforeach; ?>
                 </ul>
             </div>
+            <div class="col-md-12 text-center">
+                <a class='btn btn-primary btn-lg' href="<?= site_url(lang('code') . '/contactame') ?>"><?= lang('label_have_any_project') ?></a>
+            </div>
         </div>
         <div class="row services">
             <div class="col-md-12 profile-title"><?= lang('title_services') ?></div>

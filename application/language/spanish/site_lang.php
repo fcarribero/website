@@ -25,6 +25,7 @@ $lang = array(
     'label_email' => 'E-mail',
     'label_message' => 'Mensaje',
     'label_send' => 'Enviar',
+    'label_have_any_project' => '¿Tienes un proyecto para mi? entonces ponte en contacto',
     'cv_title' => 'Programador Web Freelance',
     'cv_extract' => 'Soy desarrollador de software con experiencia y dedicación. Me considero perfeccionista y práctico. En los trabajos que realizo intento ser lo mas ordenado y creativo posible. Siempre busco innovar y romper barreras para lograr crear productos de máxima calidad.',
     'cv_what_i_do_extract' => 'Con 7 años de experiencia profesional me dedico a desarrollar sistemas web de cualquier tamaño para emprendedores, pequeñas y grandes empresas.',
