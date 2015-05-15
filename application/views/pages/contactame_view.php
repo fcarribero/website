@@ -24,7 +24,8 @@
                     <div class="g-recaptcha" data-sitekey="6Lc04QYTAAAAAD8d8PCHNnUqE51RIQtbo0k6Bt2M"></div>
                 </div>
                 <div class="form-group">
-                    <button class="btn btn-primary"><?= lang('label_send') ?></button><span id="mail-result"></span>
+                    <button class="btn btn-primary hidden-xs"><?= lang('label_send') ?></button>
+                    <button class="btn btn-primary btn-block visible-xs"><?= lang('label_send') ?></button>
                 </div>
             </form>
         </div>
