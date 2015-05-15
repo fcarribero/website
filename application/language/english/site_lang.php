@@ -61,7 +61,7 @@ $lang = array(
             'items' => array(
                 'Devevelopment of web systems',
                 'PHP, Javascript, Node.js, MySQL/PostgreSQL, HTML & CSS/SCSS/LESS',
-                'Processes optimization',
+                'Processes optimization / Refactoring',
                 'APIs and Web Services implementation',
                 'Automation',
                 'Custom reports',
