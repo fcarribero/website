@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="<?= base_url('static/font-awesome/css/font-awesome.min.css') ?>" />
         <link href='http://fonts.googleapis.com/css?family=Source+Code+Pro' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+        <link rel="icon" type="image/png" href="<?= base_url('static/theme/img/fav.png') ?>" /> 
         <title><?= lang('meta_title') ?></title>
         <meta name="Description" content="<?= lang('home_legend') ?>" />
         <meta name="Keywords" content="<?= lang('meta_keywords') ?>" />
@@ -20,7 +21,7 @@
         <meta property="og:image" content="<?= base_url('static/theme/img/mini_banner.jpg') ?>"/>
         <meta property="og:site_name" content="<?= lang('meta_title') ?>"/>
         <meta property="og:description" content="<?= lang('home_legend') ?>"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
         <header>
