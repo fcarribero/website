@@ -1,67 +1,278 @@
-body{font-family: "Montserrat", sans-serif;color:#1E1E1E;}
-
-header{margin-top:30px;}
-header nav{text-align:right;padding:18px 0px;font-weight:bold;}
-header nav a{font-size:1.5em;text-decoration:none;padding:10px 20px;color:inherit;}
-header nav a:hover, header nav a.selected{background:#337ab7;color:#FFF;text-decoration:none;}
-header .logo a{font-family: "Source Code Pro";font-size:1.5em;padding:10px 5px;display:inline-block;cursor:pointer;text-decoration: none;color:#FFF;font-weight:bold;text-shadow:0px 2px 0px #000;}
-header .languages{}
-header .languages > a{color:inherit;}
-header .languages > a > img{margin-right:3px;}
-main{box-shadow:0px 0px 15px #DDD;border-width:1px 0px;border-style: solid;border-color:#AAA;}
-footer{padding:5px;text-align:right;}
-footer a{color:inherit;}
-
-.profile{padding-bottom:50px;}
-.profile > .row{padding:20px inherit;margin:20px;border-top:1px dashed #999;}
-.profile > .row:not(:last-child){}
-.profile-photo{text-align:center;}
-.profile-photo img{border-radius:50%;margin:20px;}
-.profile-name{margin-top:40px;font-size:2em;}
-.profile-extract{padding-top:20px;}
-.profile-title{color:#4c4945;font-size:2em;padding-bottom:20px;}
-.profile-social{margin-top:20px;}
-.profile-social a{margin-right:20px;}
-.profile-portfolio{margin-top:20px;}
-.profile-portfolio-title{font-size:1.3em;}
-.profile-portfolio-description{}
-
-.overlay{position:fixed;left:5%;top:1%;width:90%;height:98%;background:#FFF;overflow-y:auto;text-align:center;padding:10px;cursor:pointer;}
-.maximize{cursor:pointer;box-shadow: 0px 0px 5px #000;}
-
-.home{overflow: hidden;}
-.home-top{padding:50px 30px;}
-.home-title{font-size:2em;margin-top:20px;color:#337ab7;}
-.home-subtitle{font-size:3em;text-align: right;}
-.home-resume{font-size:2em;}
-.home-dd{color:#337ab7;cursor:pointer;display:inline-block;width:400px;text-align:left;}
-.home-dd-popup{position:absolute;background:rgba(255,255,255,0.6);box-shadow: 0px 0px 50px #FFF;}
-.home-dd-popup-item{font-size:3em;cursor:pointer;}
-.home-dd-carrusel{background:#FFF;margin:10px 0px 10px 0px;display:none;height:656px;}
-.home-dd-carrusel > img{box-shadow: 0px 0px 50px #FFF;}
-
-.services{padding-bottom:50px;}
-.services-title{font-size:2em;}
-.services-item{margin-top:30px;}
-.services-list{margin:20px 0px;}
-.services-list-item {font-size: 1.3em;}
-
-.contact{padding-top:30px;padding-bottom:50px;}
-.contact-phone{margin-top:20px;color:#777;}
-.contact-phone a{font-size:1.5em;color:inherit;}
-.contact-mail{color:#337ab7;margin-top:10px;}
-.contact-mail a{font-size:1.1em;font-weight: bold;color:inherit;}
-
-@media (max-width:992px){
-    header nav a{font-size:1em;}
-    header{margin-top:0px;}
-    .profile-name{text-align:center;}
-    .container{padding:inherit 0px;}
+body {
+    font-family: "Montserrat", sans-serif;
+    color: #1E1E1E;
 }
 
-@media (max-width: 767px){
-    .profile-social a{display:block;text-align:center;margin:20px;}
-    .profile-name{font-size:1.8em;}
-    .contact-mail a{font-size:1em;}
-    header nav a{padding-right:10px;padding-left:10px;}
+header {
+    margin-top: 30px;
+}
+
+header nav {
+    text-align: right;
+    padding: 18px 0px;
+    font-weight: bold;
+}
+
+header nav a {
+    font-size: 1.5em;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: inherit;
+}
+
+header nav a:hover, header nav a.selected {
+    background: #337ab7;
+    color: #FFF;
+    text-decoration: none;
+}
+
+header .logo a {
+    font-family: "Source Code Pro";
+    font-size: 1.5em;
+    padding: 10px 5px;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FFF;
+    font-weight: bold;
+    text-shadow: 0px 2px 0px #000;
+}
+
+header .languages {
+}
+
+header .languages > a {
+    color: inherit;
+}
+
+header .languages > a > img {
+    margin-right: 3px;
+}
+
+main {
+    box-shadow: 0px 0px 15px #DDD;
+    border-width: 1px 0px;
+    border-style: solid;
+    border-color: #AAA;
+}
+
+footer {
+    padding: 5px;
+    text-align: right;
+}
+
+footer a {
+    color: inherit;
+}
+
+.profile {
+    padding-bottom: 50px;
+}
+
+.profile > .row {
+    padding: 20px inherit;
+    margin: 20px;
+    border-top: 1px dashed #999;
+}
+
+.profile > .row:not(:last-child) {
+}
+
+.profile-photo {
+    text-align: center;
+}
+
+.profile-photo img {
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.profile-name {
+    margin-top: 40px;
+    font-size: 2em;
+}
+
+.profile-extract {
+    padding-top: 20px;
+}
+
+.profile-title {
+    color: #4c4945;
+    font-size: 2em;
+    padding-bottom: 20px;
+}
+
+.profile-social {
+    margin-top: 20px;
+}
+
+.profile-social a {
+    margin-right: 20px;
+}
+
+.profile-portfolio {
+    margin-top: 20px;
+}
+
+.profile-portfolio-title {
+    font-size: 1.3em;
+}
+
+.profile-portfolio-description {
+}
+
+.overlay {
+    position: fixed;
+    left: 5%;
+    top: 1%;
+    width: 90%;
+    height: 98%;
+    background: #FFF;
+    overflow-y: auto;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.maximize {
+    cursor: pointer;
+    box-shadow: 0px 0px 5px #000;
+}
+
+.home {
+    overflow: hidden;
+}
+
+.home-top {
+    padding: 50px 30px;
+}
+
+.home-title {
+    font-size: 2em;
+    margin-top: 20px;
+    color: #337ab7;
+}
+
+.home-subtitle {
+    font-size: 3em;
+    text-align: right;
+}
+
+.home-resume {
+    font-size: 2em;
+}
+
+.home-dd {
+    color: #337ab7;
+    cursor: pointer;
+    display: inline-block;
+    width: 400px;
+    text-align: left;
+}
+
+.home-dd-popup {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.6);
+    box-shadow: 0px 0px 50px #FFF;
+}
+
+.home-dd-popup-item {
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.home-dd-carrusel {
+    background: #FFF;
+    margin: 10px 0px 10px 0px;
+    display: none;
+    height: 656px;
+}
+
+.home-dd-carrusel > img {
+    box-shadow: 0px 0px 50px #FFF;
+}
+
+.services {
+    padding-bottom: 50px;
+}
+
+.services-title {
+    font-size: 2em;
+}
+
+.services-item {
+    margin-top: 30px;
+}
+
+.services-list {
+    margin: 20px 0px;
+}
+
+.services-list-item {
+    font-size: 1.3em;
+}
+
+.contact {
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.contact-phone {
+    margin-top: 20px;
+    color: #777;
+}
+
+.contact-phone a {
+    font-size: 1.5em;
+    color: inherit;
+}
+
+.contact-mail {
+    color: #337ab7;
+    margin-top: 10px;
+}
+
+.contact-mail a {
+    font-size: 1.1em;
+    font-weight: bold;
+    color: inherit;
+}
+
+@media (max-width: 992px) {
+    header nav a {
+        font-size: 1em;
+    }
+
+    header {
+        margin-top: 0px;
+    }
+
+    .profile-name {
+        text-align: center;
+    }
+
+    .container {
+        padding: inherit 0px;
+    }
+}
+
+@media (max-width: 767px) {
+    .profile-social a {
+        display: block;
+        text-align: center;
+        margin: 20px;
+    }
+
+    .profile-name {
+        font-size: 1.8em;
+    }
+
+    .contact-mail a {
+        font-size: 1em;
+    }
+
+    header nav a {
+        padding-right: 10px;
+        padding-left: 10px;
+    }
 }
